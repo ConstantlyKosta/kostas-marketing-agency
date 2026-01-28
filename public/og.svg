@@ -1,0 +1,16 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0B0B0B"/>
+  <circle cx="980" cy="120" r="220" fill="#FF6A00" fill-opacity="0.18"/>
+  <circle cx="220" cy="520" r="260" fill="#FFFFFF" fill-opacity="0.06"/>
+  <rect x="80" y="140" width="1040" height="350" rx="28" fill="#111111" stroke="#2A2A2A"/>
+  <text x="140" y="250" fill="#F5F5F2" font-family="Arial, sans-serif" font-size="54" font-weight="700">
+    Kosta’s Marketing Agency
+  </text>
+  <text x="140" y="320" fill="#B6B2AA" font-family="Arial, sans-serif" font-size="28" font-weight="400">
+    Beyond social. Real-world memorability.
+  </text>
+  <rect x="140" y="360" width="230" height="46" rx="23" fill="#FF6A00"/>
+  <text x="165" y="392" fill="#0B0B0B" font-family="Arial, sans-serif" font-size="20" font-weight="700">
+    Free on-site audit
+  </text>
+</svg>
