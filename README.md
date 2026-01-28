@@ -51,7 +51,7 @@ Update the copy and structure there. The pages read directly from these files.
 
 ## Replace Contact Details
 
-Update the placeholders in **exactly** these locations:
+Update the placeholders in **exactly** these locations (or set env vars listed below):
 
 1. `lib/site.ts`
    - `contact.whatsappNumber`
@@ -60,6 +60,18 @@ Update the placeholders in **exactly** these locations:
    - `contact.email`
 2. `messages/en.json`, `messages/ru.json`, `messages/he.json`
    - Optional: update any copy that references the city/area or location descriptions.
+
+### Env overrides (recommended for deployment)
+
+Set these environment variables in your host (e.g. Vercel Project Settings):
+
+- `NEXT_PUBLIC_SITE_URL`
+- `NEXT_PUBLIC_SITE_NAME` (optional)
+- `NEXT_PUBLIC_SITE_DESCRIPTION` (optional)
+- `NEXT_PUBLIC_WHATSAPP_NUMBER`
+- `NEXT_PUBLIC_WHATSAPP_LINK`
+- `NEXT_PUBLIC_PHONE`
+- `NEXT_PUBLIC_EMAIL`
 
 ## RTL notes
 

@@ -36,6 +36,9 @@ export async function generateMetadata({
     title,
     description,
     metadataBase: new URL(siteConfig.baseUrl),
+    icons: {
+      icon: '/icon'
+    },
     alternates: {
       canonical: `/${locale}`
     },
