@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-ink-950 text-mist-100 antialiased;
+  font-feature-settings: 'liga' 1, 'kern' 1;
+}
+
+* {
+  @apply scroll-smooth;
+}
+
+::selection {
+  background: rgba(58, 217, 255, 0.25);
+  color: #e6e7f2;
+}
